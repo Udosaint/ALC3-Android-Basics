@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.udochukwu.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:contentPadding="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is the full meaning of JVM"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                    android:textSize="18sp"
+                    />
+                <RadioGroup
+                    android:id="@+id/rb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <RadioButton
+                        android:id="@+id/Q1A"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Java Virtue Machanics"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q1B"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Java Virtual Machine"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q1C"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Java Visual Machine"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q1D"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Java Virtual Makes"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:contentPadding="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="One of these in the List is not an example of the core building block of Android Apllication"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                    android:textSize="18sp"
+                    />
+                <RadioGroup
+                    android:id="@+id/rb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <RadioButton
+                        android:id="@+id/Q2A"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Intent"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q2B"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Activity"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q2C"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="View"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q2D"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Serve"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:contentPadding="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="One of the list is not and example of a Lifecycle methods"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                    android:textSize="18sp"
+                    />
+                <RadioGroup
+                    android:id="@+id/rb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <RadioButton
+                        android:id="@+id/Q3A"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="OnSet()"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q3B"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="OnScarter()"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q3C"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="OnResult()"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q3D"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="OnStart()"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:contentPadding="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select the one that is not an example of components of the Android architecture"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                    android:textSize="18sp"
+                    />
+                <RadioGroup
+                    android:id="@+id/rb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <RadioButton
+                        android:id="@+id/Q4A"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Linux kernel"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q4B"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Native Libraries"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q4C"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Android Runtime"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q4D"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Android Stoptime"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:contentPadding="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is the full meaning of ANR in android application"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                    android:textSize="18sp"
+                    />
+                <RadioGroup
+                    android:id="@+id/rb5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <RadioButton
+                        android:id="@+id/Q5A"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Application Not Responding"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q5B"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Application Now Responding"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q5C"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Application None Responding"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q5D"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Application Nut Responding"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="8dp"
+            app:contentPadding="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="One of this is not an example of java class related to sensor on the adroid platform"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                    android:textSize="18sp"
+                    />
+                <RadioGroup
+                    android:id="@+id/rb6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <RadioButton
+                        android:id="@+id/Q6A"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="SensorEvent"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q6B"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="SensorEventListener"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q6C"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="SensorChip"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                    <RadioButton
+                        android:id="@+id/Q6D"
+                        style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:checked="false"
+                        android:duplicateParentState="false"
+                        android:text="Sensor Manager"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:buttonTint="@color/colorPrimaryDark"/>
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="submit"
+            android:text="SUBMIT"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
